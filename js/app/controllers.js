@@ -2,7 +2,8 @@
 
 /* Controllers */
 
-angular.module('arcFajita.controllers', [])/**
+angular.module('arcFajita.controllers', [])
+/**
  * Map Controller: responsible for everything you see on map.
  */
 .controller('MapCtrl', function($scope,leafletData) {
@@ -17,8 +18,14 @@ angular.module('arcFajita.controllers', [])/**
         }
     });
 })
-.controller('LayersCtrl',function ($scope,LayerService) {
+.controller('LayersCtrl',function ($scope,$rootScope,LayerService) {
+	
 	LayerService.getLayerData().then(function(groups) {
 		$scope.groups = groups;
 	});
+
+	$scope.showHideLayer =  function (layer) {
+		if(layer.visibility) $rootScope.$broadcast("addLayer", layer);
+		else $rootScope.$broadcast("removeLayer", layer);
+	}
 });

@@ -26,12 +26,16 @@
                 <accordion close-others="false">
                     <accordion-group ng-repeat="group in groups" is-open="status.open">
                         <accordion-heading>
-                            {{group.displayName}} 
+                            {{group.displayName}}
+                            <span class="label label-info layer-count">{{group.layer.length}}</span>
                             <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
                         </accordion-heading>
                         <div class="layer-group">
                             <div ng-repeat="layer in group.layer">
-                                {{layer.displayName}}
+                                 <label class="checkbox layer">
+                                    <input type="checkbox" ng-change="showHideLayer(layer)" ng-model="layer.visibility">
+                                        {{layer.displayName}}
+                                  </label>
                             </div>
                         </div>
                     </accordion-group>
