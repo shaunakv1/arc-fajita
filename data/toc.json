@@ -1,0 +1,1446 @@
+{
+  "toc": {
+    "group": [
+      {
+        "id": "topGroup1",
+        "displayName": "Jurisdictions and Boundaries",
+        "layer": [
+          {
+            "serviceID": "BOEM",
+            "layerID": "8",
+            "displayName": "Submerged Lands Act Boundary",
+            "visible": "true",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/8",
+            "DrawOrder": "01"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "7",
+            "displayName": "Limit of OCSLA '8(g)' zone",
+            "visible": "true",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/7",
+            "DrawOrder": "02"
+          },
+          {
+            "serviceID": "OCS",
+            "layerID": "1",
+            "displayName": "12NM Territorial Sea",
+            "visible": "true",
+            "MinScale": "40000000",
+            "MaxScale": "NULL",
+            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/MaritimeBoundaries/US_Maritime_Limits_Boundaries/MapServer/1",
+            "DrawOrder": "03"
+          },
+          {
+            "serviceID": "OCS",
+            "layerID": "2",
+            "displayName": "24NM Contiguous Zone",
+            "visible": "true",
+            "MinScale": "40000000",
+            "MaxScale": "NULL",
+            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/MaritimeBoundaries/US_Maritime_Limits_Boundaries/MapServer/2",
+            "DrawOrder": "04"
+          },
+          {
+            "serviceID": "OCS",
+            "layerID": "3",
+            "displayName": "200NM EEZ and Maritime Boundaries",
+            "visible": "true",
+            "MinScale": "40000000",
+            "MaxScale": "NULL",
+            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/MaritimeBoundaries/US_Maritime_Limits_Boundaries/MapServer/3",
+            "DrawOrder": "05"
+          },
+          {
+            "serviceID": "OCS",
+            "layerID": "4",
+            "displayName": "US/Canada Land Boundary",
+            "visible": "false",
+            "MinScale": "40000000",
+            "MaxScale": "NULL",
+            "url": "http://maritimeboundaries.noaa.gov/arcgis/rest/services/MaritimeBoundaries/US_Maritime_Limits_Boundaries/MapServer/4",
+            "DrawOrder": "06"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "4",
+            "displayName": "Unofficial State Lateral Boundaries",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/4",
+            "DrawOrder": "07"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "6",
+            "displayName": "Unofficial OCS Boundaries",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/6",
+            "DrawOrder": "08"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "5",
+            "displayName": "Federal OCS Administrative Boundaries",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/5",
+            "DrawOrder": "09"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "12",
+            "displayName": "COLREGS Demarcation Lines",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/3",
+            "DrawOrder": "10"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "10",
+            "displayName": "Outer Continental Shelf Protraction Diagrams",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/10",
+            "DrawOrder": "11"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "11",
+            "displayName": "Outer Continental Shelf Lease Blocks",
+            "visible": "false",
+            "MinScale": "18489298",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/11",
+            "DrawOrder": "12"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "12",
+            "displayName": "BOEM Block Aliquots",
+            "visible": "false",
+            "MinScale": "1155582",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/12",
+            "DrawOrder": "13"
+          },
+          {
+            "serviceID": "MPA",
+            "layerID": "0",
+            "displayName": "MPA Inventory - MPAs by Government Level",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://egisws02.nos.noaa.gov/ArcGIS/rest/services/MPA/MPAs_nonNMFS/MapServer/0",
+            "DrawOrder": "14"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "19",
+            "displayName": "Coastal Tribal Lands",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NationalViewer/MapServer/19",
+            "DrawOrder": "15"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "20",
+            "displayName": "Coastal Zone Management Act Boundary",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NationalViewer/MapServer/20",
+            "DrawOrder": "16"
+          },
+          {
+            "serviceID": "EPA",
+            "layerID": "4",
+            "displayName": "Environmental Protection Agency Region Boundaries",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "5000001",
+            "url": "http://geodata.epa.gov/ArcGIS/rest/services/OEI/EPA_Locations/MapServer/4",
+            "DrawOrder": "17"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "21",
+            "displayName": "Federal Emergency Management Agency Regions",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NationalViewer/MapServer/21",
+            "DrawOrder": "18"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "22",
+            "displayName": "National Marine Fisheries Service Regions",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NationalViewer/MapServer/22",
+            "DrawOrder": "19"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "23",
+            "displayName": "National Park Service Regions",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NationalViewer/MapServer/23",
+            "DrawOrder": "20"
+          },
+          {
+            "serviceID": "USACE",
+            "layerID": "0",
+            "displayName": "US Army Corps of Engineers Civil Works Districts",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://140.194.46.50:6080/arcgis/rest/services/National_Admin/USACE_DistrictBounds/MapServer/0",
+            "DrawOrder": "21"
+          },
+          {
+            "serviceID": "USACE1",
+            "layerID": "0",
+            "displayName": "US Army Corps of Engineers Regulatory Boundary",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://140.194.46.50:6080/arcgis/rest/services/National_Admin/USACE_Regulatory_Boundary/MapServer/0",
+            "DrawOrder": "22"
+          },
+          {
+            "serviceID": "USCG",
+            "layerID": "11",
+            "displayName": "US Coast Guard Districts",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "https://egis-e.uscg.mil/ArcGIS/rest/services/Jurisdictions_2D/MapServer/11",
+            "DrawOrder": "23"
+          },
+          {
+            "serviceID": "USFWS",
+            "layerID": "0",
+            "displayName": "US Fish and Wildlife Service Regions",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "10000000",
+            "url": "http://gis.fws.gov/ArcGIS/rest/services/FWS_Regional_Boundaries/MapServer/0",
+            "DrawOrder": "24"
+          }
+        ]
+      },
+      {
+        "id": "topGroup2",
+        "displayName": "Ocean Uses and Planning Areas",
+        "layer": [
+          {
+            "serviceID": "CSC",
+            "layerID": "0",
+            "displayName": "Aids to Navigation",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/0",
+            "DrawOrder": "01"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "2",
+            "displayName": "Wrecks and Obstructions",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/1",
+            "DrawOrder": "02"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "3",
+            "displayName": "Coastal Energy Facilities",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/OceanEnergy/MapServer/0",
+            "DrawOrder": "03"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "4",
+            "displayName": "Principal Ports",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/2",
+            "DrawOrder": "04"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "13",
+            "displayName": "Submarine Cables",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/4",
+            "DrawOrder": "05"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "24",
+            "displayName": "Shipping Fairways, Lanes, and Zones",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/5",
+            "DrawOrder": "06"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "25",
+            "displayName": "Maintained Channels",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/6",
+            "DrawOrder": "07"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "26",
+            "displayName": "Anchorage Areas",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/7",
+            "DrawOrder": "08"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "27",
+            "displayName": "Danger Zones and Restricted Areas",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/8",
+            "DrawOrder": "09"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "28",
+            "displayName": "Unexploded Ordnances",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NavigationAndMarineTransportation/MapServer/9",
+            "DrawOrder": "10"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "22",
+            "displayName": "2010 Vessel Traffic (AIS)",
+            "visible": "false",
+            "MinScale": "4622325",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/22",
+            "DrawOrder": "11"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "23",
+            "displayName": "2009 Vessel Traffic (AIS)",
+            "visible": "false",
+            "MinScale": "4622325",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/23",
+            "DrawOrder": "12"
+          },
+          {
+            "serviceID": "CSC2",
+            "layerID": "0",
+            "displayName": "Ocean Uses: California",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/CaliforniaOceanUses/MapServer",
+            "DrawOrder": "13"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "14",
+            "displayName": "Federal OCS Sand and Gravel Borrow Areas",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/14",
+            "DrawOrder": "14"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "9",
+            "displayName": "Atlantic Wildlife Survey Tracklines (2005-2012)",
+            "visible": "false",
+            "MinScale": "18489298",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/9",
+            "DrawOrder": "15"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "18",
+            "displayName": "Atlantic Wildlife Survey Study Areas (2005-2012)",
+            "visible": "false",
+            "MinScale": "18489298",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/18",
+            "DrawOrder": "16"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "3",
+            "displayName": "Proposed Centerline for the Atlantic Wind Connect Project",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/3",
+            "DrawOrder": "17"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "16",
+            "displayName": "BOEM Wind Planning Areas",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/16",
+            "DrawOrder": "18"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "17",
+            "displayName": "Wind Energy Areas February 2011",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/17",
+            "DrawOrder": "19"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "13",
+            "displayName": "Active Renewable Energy Leases",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/13",
+            "DrawOrder": "20"
+          },
+          {
+            "serviceID": "CSC3",
+            "layerID": "5",
+            "displayName": "DOD Offshore Wind Mission Compatibility Assessments",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/OceanEnergy/MapServer/5",
+            "DrawOrder": "21"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "6",
+            "displayName": "Offshore Wave Hydrokinetic Projects",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/OceanEnergy/MapServer/2",
+            "DrawOrder": "22"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "7",
+            "displayName": "Offshore Tidal Hydrokinetic Projects",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/OceanEnergy/MapServer/3",
+            "DrawOrder": "23"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "20",
+            "displayName": "BOEM Oil and Gas Planning Areas",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/20",
+            "DrawOrder": "24"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "15",
+            "displayName": "Active Oil and Gas Leases",
+            "visible": "false",
+            "MinScale": "4622325",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/15",
+            "DrawOrder": "25"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "2",
+            "displayName": "Selected Pipelines",
+            "visible": "false",
+            "MinScale": "9244649",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/2",
+            "DrawOrder": "26"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "1",
+            "displayName": "Oil and Natural Gas Wells",
+            "visible": "false",
+            "MinScale": "9244649",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/1",
+            "DrawOrder": "27"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "0",
+            "displayName": "Drilling Platforms",
+            "visible": "false",
+            "MinScale": "9244649",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/0",
+            "DrawOrder": "28"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "5",
+            "displayName": "Deepwater Ports",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/OceanEnergy/MapServer/1",
+            "DrawOrder": "29"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "19",
+            "displayName": "OCS Oil and Gas Leasing Program 2012-2017",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/19",
+            "DrawOrder": "30"
+          }
+        ]
+      },
+      {
+        "id": "topGroup3",
+        "displayName": "Marine Habitat",
+        "layer": [
+          {
+            "serviceID": "CSC",
+            "layerID": "1",
+            "displayName": "Artificial Reefs",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/0",
+            "DrawOrder": "01"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "30",
+            "displayName": "Critical Habitat Designations",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/9",
+            "DrawOrder": "02"
+          },
+          {
+            "serviceID": "NMFS2",
+            "layerID": "0",
+            "displayName": "Habitat Areas of Particular Concern",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://egisws02.nos.noaa.gov/ArcGIS/rest/services/NMFS/HAPC/MapServer/0",
+            "DrawOrder": "03"
+          },
+          {
+            "serviceID": "NMFS",
+            "layerID": "0",
+            "displayName": "EFH Areas Protected from Fishing",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://egisws02.nos.noaa.gov/ArcGIS/rest/services/NMFS/EFHAreasProtectedFromFishing/MapServer/0",
+            "DrawOrder": "04"
+          },
+          {
+            "serviceID": "MPA2",
+            "layerID": "0",
+            "displayName": "MPA Inventory - MPAs by Fishing Restriction",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://egisws02.nos.noaa.gov/ArcGIS/rest/services/MPA/MPA_Inventory_MPAs_by_Fishing_Restrictions/MapServer/0",
+            "DrawOrder": "05"
+          }
+        ]
+      },
+      {
+        "id": "topGroup4",
+        "displayName": "Physical and Oceanographic",
+        "layer": [
+          {
+            "serviceID": "CSC",
+            "layerID": "10",
+            "displayName": "Undersea Feature Place Names",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/NationalViewer/MapServer/10",
+            "DrawOrder": "01"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "15",
+            "displayName": "Bathymetric Contours",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/6",
+            "DrawOrder": "02"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "16",
+            "displayName": "Ocean Sediment Thickness Contours",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/7",
+            "DrawOrder": "03"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "11",
+            "displayName": "National Seafloor Sediment (usSEABED)",
+            "visible": "false",
+            "MinScale": "4622325",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/5",
+            "DrawOrder": "04"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "31",
+            "displayName": "Atlantic Seafloor Sediment (CONMAP)",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://coastalmap.marine.usgs.gov/rest/services/EastCoast/AtlanticCoast/MapServer/234",
+            "DrawOrder": "05"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "32",
+            "displayName": "National Seafloor Geology (GLORIA)",
+            "visible": "false",
+            "MinScale": "9244649",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/12",
+            "DrawOrder": "06"
+          },
+          {
+            "serviceID": "BOEM",
+            "layerID": "24",
+            "displayName": "Seismic Water Bottom Anomalies",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://gis.boemre.gov/arcgis/rest/services/BOEM_BSEE/MMC_Layers/MapServer/24",
+            "DrawOrder": "07"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "8",
+            "displayName": "High Frequency Radar Locations",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/1",
+            "DrawOrder": "08"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "17",
+            "displayName": "High Frequency Radar Radial Ranges",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/8",
+            "DrawOrder": "09"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "9",
+            "displayName": "Weather Radar Stations (Federal)",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/PhysicalOceanographicAndMarineHabitat/MapServer/2",
+            "DrawOrder": "10"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "18",
+            "displayName": "Weather Radar Impact Zones",
+            "visible": "false",
+            "MinScale": "18489298",
+            "MaxScale": "NULL",
+            "url": "http://www.csc.noaa.gov/ArcGISPUB/rest/services/MarineCadastre/WeatherRadarImpactZones/MapServer/0",
+            "DrawOrder": "11"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "14",
+            "displayName": "Offshore Wind Technology Depth Zones",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/OceanEnergy/MapServer/4",
+            "DrawOrder": "12"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "33",
+            "displayName": "Offshore Wind Resource Potential",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://www.csc.noaa.gov/ArcGISPUB/rest/services/MarineCadastre/OffshoreWindResourcePotential/MapServer",
+            "DrawOrder": "13"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "34",
+            "displayName": "Ocean Wave Resource Potential",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://www.csc.noaa.gov/ArcGISPUB/rest/services/MarineCadastre/OceanWaveResourcePotential/MapServer",
+            "DrawOrder": "14"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "35",
+            "displayName": "Tidal Stream Resource Potential - Mean Current",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://perigean-clone.ad.gatech.edu/ArcGIS/rest/services/usa_mc/MapServer",
+            "DrawOrder": "15"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "36",
+            "displayName": "Tidal Stream Resource Potential - Mean Power Density",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://perigean-clone.ad.gatech.edu/ArcGIS/rest/services/usa_mp/MapServer",
+            "DrawOrder": "16"
+          }
+        ]
+      },
+      {
+        "id": "topGroup5",
+        "displayName": "Marine Mammals and Turtles",
+        "layer": [
+          {
+            "serviceID": "CSC",
+            "layerID": "37",
+            "displayName": "North Atlantic Right Whale, Atlantic December",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/0",
+            "DrawOrder": "01"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "38",
+            "displayName": "North Atlantic Right Whale, Atlantic January",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/1",
+            "DrawOrder": "02"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "39",
+            "displayName": "North Atlantic Right Whale, Atlantic February",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/2",
+            "DrawOrder": "03"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "40",
+            "displayName": "Humpback Whale, Atlantic Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/3",
+            "DrawOrder": "04"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "41",
+            "displayName": "Sei Whale, Atlantic Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/4",
+            "DrawOrder": "05"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "42",
+            "displayName": "Fin Whale, Atlantic Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/5",
+            "DrawOrder": "06"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "43",
+            "displayName": "Minke Whale, Atlantic Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/6",
+            "DrawOrder": "07"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "44",
+            "displayName": "Sperm Whale, Atlantic Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/7",
+            "DrawOrder": "08"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "45",
+            "displayName": "Sperm Whale, GoMex Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/8",
+            "DrawOrder": "09"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "46",
+            "displayName": "Bottlenose Dolphin, Atlantic Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/9",
+            "DrawOrder": "10"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "47",
+            "displayName": "Bottlenose Dolphin, GoMex Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/10",
+            "DrawOrder": "11"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "48",
+            "displayName": "Leatherback Turtle, Atlantic Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/11",
+            "DrawOrder": "12"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "49",
+            "displayName": "Leatherback Turtle, GoMex Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/12",
+            "DrawOrder": "13"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "50",
+            "displayName": "Kemps Ridley Turtle, Atlantic Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/13",
+            "DrawOrder": "14"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "51",
+            "displayName": "Loggerhead Turtle, Atlantic Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/14",
+            "DrawOrder": "15"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "52",
+            "displayName": "Loggerhead Turtle, GoMex Winter",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/15",
+            "DrawOrder": "16"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "53",
+            "displayName": "North Atlantic Right Whale, Atlantic March",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/16",
+            "DrawOrder": "17"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "54",
+            "displayName": "North Atlantic Right Whale, Atlantic May",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/17",
+            "DrawOrder": "18"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "55",
+            "displayName": "North Atlantic Right Whale, Atlantic April",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/18",
+            "DrawOrder": "19"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "56",
+            "displayName": "Humpback Whale, Atlantic Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/19",
+            "DrawOrder": "20"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "57",
+            "displayName": "Sei Whale, Atlantic Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/20",
+            "DrawOrder": "21"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "58",
+            "displayName": "Fin Whale, Atlantic Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/21",
+            "DrawOrder": "22"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "59",
+            "displayName": "Minke Whale, Atlantic Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/22",
+            "DrawOrder": "23"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "60",
+            "displayName": "Sperm Whale, Atlantic Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/23",
+            "DrawOrder": "24"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "61",
+            "displayName": "Sperm Whale, GoMex Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/24",
+            "DrawOrder": "25"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "62",
+            "displayName": "Bottlenose Dolphin, Atlantic Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/25",
+            "DrawOrder": "26"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "63",
+            "displayName": "Bottlenose Dolphin, GoMex Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/26",
+            "DrawOrder": "27"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "64",
+            "displayName": "Leatherback Turtle, Atlantic Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/27",
+            "DrawOrder": "28"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "65",
+            "displayName": "Leatherback Turtle, GoMex Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/28",
+            "DrawOrder": "29"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "66",
+            "displayName": "Kemps Ridley Turtle, Atlantic Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/29",
+            "DrawOrder": "30"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "67",
+            "displayName": "Loggerhead Turtle, Atlantic Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/30",
+            "DrawOrder": "31"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "68",
+            "displayName": "Loggerhead Turtle, GoMex Spring",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/31",
+            "DrawOrder": "32"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "69",
+            "displayName": "North Atlantic Right Whale, Atlantic June",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/32",
+            "DrawOrder": "33"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "70",
+            "displayName": "North Atlantic Right Whale, Atlantic July and August",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/33",
+            "DrawOrder": "34"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "71",
+            "displayName": "Humpback Whale, Atlantic Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/34",
+            "DrawOrder": "35"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "72",
+            "displayName": "Humpback Whale, Pacific Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/35",
+            "DrawOrder": "36"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "73",
+            "displayName": "Sei Whale, Atlantic Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/36",
+            "DrawOrder": "37"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "74",
+            "displayName": "Fin Whale, Atlantic Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/37",
+            "DrawOrder": "38"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "75",
+            "displayName": "Fin Whale, Pacific Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/38",
+            "DrawOrder": "39"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "76",
+            "displayName": "Minke Whale, Atlantic Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/39",
+            "DrawOrder": "40"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "77",
+            "displayName": "Sperm Whale, Atlantic Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/40",
+            "DrawOrder": "41"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "78",
+            "displayName": "Sperm Whale, GoMex Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/41",
+            "DrawOrder": "42"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "79",
+            "displayName": "Sperm Whale, Pacific Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/42",
+            "DrawOrder": "43"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "80",
+            "displayName": "Blue Whale, Pacific Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/43",
+            "DrawOrder": "44"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "81",
+            "displayName": "Bottlenose Dolphin, Atlantic Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/44",
+            "DrawOrder": "45"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "82",
+            "displayName": "Bottlenose Dolphin, GoMex Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/45",
+            "DrawOrder": "46"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "83",
+            "displayName": "Leatherback Turtle, Atlantic Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/46",
+            "DrawOrder": "47"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "84",
+            "displayName": "Leatherback Turtle, GoMex Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/47",
+            "DrawOrder": "48"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "85",
+            "displayName": "Kemps Ridley Turtle, Atlantic Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/48",
+            "DrawOrder": "49"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "86",
+            "displayName": "Loggerhead Turtle, Atlantic Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/49",
+            "DrawOrder": "50"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "87",
+            "displayName": "Loggerhead Turtle, GoMex Summer",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/50",
+            "DrawOrder": "51"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "88",
+            "displayName": "North Atlantic Right Whale, Atlantic September",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/51",
+            "DrawOrder": "52"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "89",
+            "displayName": "North Atlantic Right Whale, Atlantic October and November",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/52",
+            "DrawOrder": "53"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "90",
+            "displayName": "Humpback Whale, Atlantic Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/53",
+            "DrawOrder": "54"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "91",
+            "displayName": "Sei Whale, Atlantic Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/54",
+            "DrawOrder": "55"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "92",
+            "displayName": "Fin Whale, Atlantic Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/55",
+            "DrawOrder": "56"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "93",
+            "displayName": "Minke Whale, Atlantic Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/56",
+            "DrawOrder": "57"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "94",
+            "displayName": "Sperm Whale, Atlantic Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/57",
+            "DrawOrder": "58"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "95",
+            "displayName": "Sperm Whale, GoMex Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/58",
+            "DrawOrder": "59"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "96",
+            "displayName": "Bottlenose Dolphin, Atlantic Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/59",
+            "DrawOrder": "60"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "97",
+            "displayName": "Bottlenose Dolphin, GoMex Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/60",
+            "DrawOrder": "61"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "98",
+            "displayName": "Leatherback Turtle, Atlantic Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/61",
+            "DrawOrder": "62"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "99",
+            "displayName": "Leatherback Turtle, GoMex Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/62",
+            "DrawOrder": "63"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "100",
+            "displayName": "Kemps Ridley Turtle, Atlantic Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/63",
+            "DrawOrder": "64"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "101",
+            "displayName": "Loggerhead Turtle, Atlantic Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/64",
+            "DrawOrder": "65"
+          },
+          {
+            "serviceID": "CSC",
+            "layerID": "102",
+            "displayName": "Loggerhead Turtle, GoMex Fall",
+            "visible": "false",
+            "MinScale": "NULL",
+            "MaxScale": "NULL",
+            "url": "http://csc.noaa.gov/arcgis/rest/services/MarineCadastre/MarineMammalsAndSeaTurtles/MapServer/65",
+            "DrawOrder": "66"
+          }
+        ]
+      }
+    ]
+  }
+}
