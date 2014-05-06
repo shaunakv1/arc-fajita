@@ -1,0 +1,71 @@
+body {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow-x:hidden;
+}
+.container-fluid,
+.row-fluid { height: inherit; }
+
+.sidebar-nav {
+    position:fixed;
+    top:45px;
+    bottom:14px;
+    background-color:#fff;
+    overflow-y:hidden;
+    overflow-x:hidden;
+    z-index:999;
+    /*padding-top:5px;*/
+    padding-left:15px;
+}
+
+.map {
+    position: fixed;
+    top: 0;
+    bottom: 14px;
+    z-index: 0;
+    left: 0px;
+    right: 0px;
+}
+
+.fill-height{
+    height: 100%;
+}
+
+.side-bar-slide-control {
+    position: absolute;
+    top: 70px;
+    z-index: 9999;
+}
+.slide-toggle {
+    left: 0px !important;
+}
+
+#hide-nav a {
+    top: 45px;
+    position: absolute;
+    display: block;
+    background: #fff url("../img/nav-toggle.png") no-repeat 2px 14px;
+    width: 12px;
+    height: 33px;
+    text-indent: -999px;
+    margin: 0;
+    left: -1px;
+    border-radius: 0 5px 5px 0;
+    border-right: 1px solid #ccc;
+    box-shadow: 1px 0px 5px rgba(0,0,0, .1);
+}
+#hide-nav a:hover{
+    background: #fff url("../img/nav-toggle.png") no-repeat -22px -7px;
+}
+.zoomControl-toggle{
+    left: 5px !important;
+}
+
+/** 
+ * leaflet Overides
+ */
+
+.leaflet-top .leaflet-control {
+    margin-top: 55px;   
+}

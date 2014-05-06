@@ -2,10 +2,11 @@
 
 
 // Declare app level module which depends on filters, and services
-angular.module('myApp', [
+angular.module('arcFajita', [
   'ngRoute',
-  'myApp.filters',
-  'myApp.services',
-  'myApp.directives',
-  'myApp.controllers'
+  'arcFajita.filters',
+  'arcFajita.services',
+  'arcFajita.directives',
+  'arcFajita.controllers',
+  'leaflet-directive',
 ]);
