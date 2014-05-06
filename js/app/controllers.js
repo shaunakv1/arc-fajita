@@ -6,7 +6,6 @@ angular.module('arcFajita.controllers', [])/**
  * Map Controller: responsible for everything you see on map.
  */
 .controller('MapCtrl', function($scope,leafletData) {
-
     angular.extend($scope, {
         usa: {
             lat: 40.1786097044826,
@@ -17,4 +16,9 @@ angular.module('arcFajita.controllers', [])/**
             url: "http://services.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}"
         }
     });
+})
+.controller('LayersCtrl',function ($scope,LayerService) {
+	LayerService.getLayerData().then(function(groups) {
+		$scope.groups = groups;
+	});
 });

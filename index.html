@@ -19,9 +19,25 @@
         <div id="noaa_header" options='{"title":"ArcFajita", "showSocial":false }'></div>            
 
          <!-- SIDE NAV -->
-        <div id="side-nav-accordion">
+        <div>
             <div id='nav' class='sidebar-nav'><!-- Side Bar Contents -->
-            <h3>Side Bar</h3>
+            
+            <div ng-controller="LayersCtrl" class="layers">
+                <accordion close-others="false">
+                    <accordion-group ng-repeat="group in groups" is-open="status.open">
+                        <accordion-heading>
+                            {{group.displayName}} 
+                            <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        </accordion-heading>
+                        <div class="layer-group">
+                            <div ng-repeat="layer in group.layer">
+                                {{layer.displayName}}
+                            </div>
+                        </div>
+                    </accordion-group>
+                </accordion>
+            </div>
+            
             </div><!-- Close Side Bar Contents -->
             <div id="slide-control" class='side-bar-slide-control'>
                 <div id="hide-nav" class="hide-sidebar">
@@ -39,6 +55,7 @@
         <script src="js/lib/jq-effects-slide.min.js"></script>
         <script src="js/lib/leaflet.js"></script>
         <script src="js/lib/angular/angular.js"></script>
+        <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.10.0.js"></script>
         <script src="js/lib/angular/angular-route.min.js"></script>
         <script src="js/lib/angular-leaflet-directive.min.js"></script>
 

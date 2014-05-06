@@ -9,4 +9,5 @@ angular.module('arcFajita', [
   'arcFajita.directives',
   'arcFajita.controllers',
   'leaflet-directive',
+  'ui.bootstrap',
 ]);
