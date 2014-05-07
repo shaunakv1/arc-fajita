@@ -7,6 +7,7 @@ angular.module('arcFajita.controllers', [])
  * Map Controller: responsible for everything you see on map.
  */
 .controller('MapCtrl', function($scope,leafletData) {
+
     angular.extend($scope, {
         usa: {
             lat: 40.1786097044826,
@@ -23,18 +24,22 @@ angular.module('arcFajita.controllers', [])
     $scope.$on("addLayer",function (evt,layer) {
     	var url = layer.url.substring(0, layer.url.lastIndexOf('/'));
     	leafletData.getMap().then(function(map) {
-            L.esri.dynamicMapLayer(url, {
+         var l = L.esri.dynamicMapLayer(url, {
 			  opacity : 1
-			}).addTo(map);
+			});
+
+         l.addTo(map);
+         layer.leafletLayer = l;
+
         });
     });
 
     $scope.$on("removeLayer",function (evt,layer) {
     	console.log("remove");
     	console.log(layer);
-    	// leafletData.getMap().then(function(map) {
-     //        theMap = map;
-     //    });
+    	leafletData.getMap().then(function(map) {
+            if(layer.leafletLayer) map.removeLayer(layer.leafletLayer);
+        });
     });
 })
 .controller('LayersCtrl',function ($scope,$rootScope,LayerService) {
