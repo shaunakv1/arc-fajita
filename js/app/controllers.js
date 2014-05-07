@@ -17,6 +17,25 @@ angular.module('arcFajita.controllers', [])
             url: "http://services.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}"
         }
     });
+
+    L.esri.get = L.esri.RequestHandlers.JSONP;
+
+    $scope.$on("addLayer",function (evt,layer) {
+    	var url = layer.url.substring(0, layer.url.lastIndexOf('/'));
+    	leafletData.getMap().then(function(map) {
+            L.esri.dynamicMapLayer(url, {
+			  opacity : 1
+			}).addTo(map);
+        });
+    });
+
+    $scope.$on("removeLayer",function (evt,layer) {
+    	console.log("remove");
+    	console.log(layer);
+    	// leafletData.getMap().then(function(map) {
+     //        theMap = map;
+     //    });
+    });
 })
 .controller('LayersCtrl',function ($scope,$rootScope,LayerService) {
 	
