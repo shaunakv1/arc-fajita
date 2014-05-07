@@ -30,13 +30,10 @@ angular.module('arcFajita.controllers', [])
 
          l.addTo(map);
          layer.leafletLayer = l;
-
         });
     });
 
     $scope.$on("removeLayer",function (evt,layer) {
-    	console.log("remove");
-    	console.log(layer);
     	leafletData.getMap().then(function(map) {
             if(layer.leafletLayer) map.removeLayer(layer.leafletLayer);
         });
