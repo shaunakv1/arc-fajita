@@ -25,9 +25,9 @@ angular.module('arcFajita.controllers', [])
     	var url = layer.url.substring(0, layer.url.lastIndexOf('/'));
     	leafletData.getMap().then(function(map) {
          var l = L.esri.dynamicMapLayer(url, {
-			  opacity : 1
+			  opacity : 1,
+			  layers: layer.layerID
 			});
-
          l.addTo(map);
          layer.leafletLayer = l;
         });
