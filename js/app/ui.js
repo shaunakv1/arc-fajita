@@ -24,3 +24,10 @@ function initSideBar(width) {
         });
     });
 }
+
+/**
+ * Removing NOAA Logo while on github
+ */
+function onHeaderLoad () {
+    $('.dc-brand ').hide();
+}
